@@ -75,14 +75,20 @@ Same-origin policy룰 완화하기 위해 동적으로 신뢰성이 있는(api s
 
 2018년 4월부터 각각 웹 표준을 제시하던 두 조직이 하나의 표준을 제시하기로 했으며 WHATWG가 주도권을 가져감. [관련기사](https://www.zdnet.co.kr/view/?no=20190531184644)
 
-### CORS가 필요한 요소들
+### AsynchronousJavaScriptAndXML(AJAX)
+
+자바스크립트에서 비동기로 외부 요청을 할때 쓰이는 기술로 대표적인 Api는 두가지가 있다.
+
+- XMLHttpRequest : IE 때부터 사용하던 api로 현재는 사용이 지양되고있다. 내장함수와 콜백이 구현하기 복잡하게 되어있음.
+- Fetch : XMLHttpRequest를 대체하기 위해 ES6 부터 표준화된 api. Promise 기반인것이 특징.
+
+### CORS를 사용하는 요청들
 
 - 외부 도메인으로의 XMLHttpRequest나 Fetch API 호출
   - ajax로 들어온 모든 리소스(json, image등)은 script 내부에서 동작하기 때문에 외부 리소스로 간주함.
 - CSS @font-face를 통한 Cross-domain 폰트 사용
 - WebGL 텍스쳐
 - drawImage를 사용해 캔버스에 드로잉되는 이미지/비디오 프레임들.
-
 
 ### 기본적인 작동 원리
 
