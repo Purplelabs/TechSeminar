@@ -1,4 +1,4 @@
-# cors가 왜 필요한지 원리가 뭔지
+# CORS는 왜 필요한가
 
 Cross-Origin Resource Sharing에 대한 원리와 필요한 이유에 대해 다룬다.
 
