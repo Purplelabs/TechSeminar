@@ -21,9 +21,10 @@ https://www.purplelabs.co.kr/index.html?query=value
 ```
 
 다음과 같은 구성요소를 갖고있다.
-|Scheme or protocol|Host|Port|Path|Query|Fragment|
-|---|---|---|---|---|---|
-|https://|purplelabs.co.kr|:80|purplelabs.html|?key=value|#SomewhereInTheDocument|
+
+| Scheme or protocol | Host | Port | Path | Query | Fragment |
+| ------------------ | ---- | ---- | ---- | ----- | -------- |
+| https://|purplelabs.co.kr | :80 | purplelabs.html | ?key=value | #SomewhereInTheDocument |
 
 - Scheme or protocol : url에서 사용하는 프로토콜이나 스키마를 지정. 프로토콜은 http:// 형식을 사용하며 스키마는 mailto:와 같은 형식을 사용한다.
 - Host : 도메인이나 ip등 url에서 가리키는 주소
