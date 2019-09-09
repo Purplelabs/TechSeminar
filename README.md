@@ -4,4 +4,4 @@
 
 ## 발표내용
 
-19.9.6 [CORS는 왜 필요한가](CORS/cors.md)
+- 19.9.6 [CORS는 왜 필요한가](CORS/cors.md)
